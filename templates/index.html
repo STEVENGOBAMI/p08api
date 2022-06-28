@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Image and Mask</title>
+    <style>
+        h1{text-align: center;}
+    </style>
+</head>
+
+<body>
+    <h1>
+        <b>
+            <font size=15 class="text-center">
+            DISPLAY IMAGE AND HIS MASK
+            </font>
+        </b>
+    </h1>
+
+    <h2> Enter the id of image to predict :</h2>
+    <form method="POST">
+        <div><label>Image_id: <input type="text" name="name"></label></div>
+        <input type="submit" value="Submit">
+    </form>
+    <img src="{{ image_mask }}">
+    
+</body>
+</html>
